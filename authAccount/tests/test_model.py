@@ -1,9 +1,6 @@
 from django.test import TestCase
 from authAccount.models import User
 
-# faker pakage create email and other data 
-# factory for dummy data create   
-# if you create custome test class then you have to delete by default genereted tests.py class 
 class UserModelTest(TestCase):
     def test_create_user(self):
         email = "test@example.com"
